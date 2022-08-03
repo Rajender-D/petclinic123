@@ -1,0 +1,56 @@
+Started by GitHub push by Rajender-D
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/onlinebookstore
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /root/.jenkins/workspace/onlinebookstore/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:Rajender-D/onlinebookstore.git # timeout=10
+Fetching upstream changes from git@github.com:Rajender-D/onlinebookstore.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.37.1'
+ > git fetch --tags --force --progress -- git@github.com:Rajender-D/onlinebookstore.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+Checking out Revision 3ede3978754437706148b1da79d0426e70328f9b (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3ede3978754437706148b1da79d0426e70328f9b # timeout=10
+Commit message: "Update Test"
+ > git rev-list --no-walk 1951541a858ff0c65b0cf7bfd282cfdf7429511e # timeout=10
+[onlinebookstore] $ mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< onlinebookstore:onlinebookstore >-------------------
+[INFO] Building onlinebookstore 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4CK0UA0/udJ1QqbpBXBgb3ipFmiBsfT+VrWFjuraEwT4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ onlinebookstore ---
+[8mha:////4DhvDCnAhilQNXLjoD8ofaT6SoJ/XF4K65zACEvTA1QRAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /root/.jenkins/workspace/onlinebookstore/src/main/resources
+[INFO] 
+[8mha:////4CK0UA0/udJ1QqbpBXBgb3ipFmiBsfT+VrWFjuraEwT4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ onlinebookstore ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4CK0UA0/udJ1QqbpBXBgb3ipFmiBsfT+VrWFjuraEwT4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ onlinebookstore ---
+[8mha:////4DhvDCnAhilQNXLjoD8ofaT6SoJ/XF4K65zACEvTA1QRAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /root/.jenkins/workspace/onlinebookstore/src/test/resources
+[INFO] 
+[8mha:////4CK0UA0/udJ1QqbpBXBgb3ipFmiBsfT+VrWFjuraEwT4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ onlinebookstore ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4CK0UA0/udJ1QqbpBXBgb3ipFmiBsfT+VrWFjuraEwT4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ onlinebookstore ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4CK0UA0/udJ1QqbpBXBgb3ipFmiBsfT+VrWFjuraEwT4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-war-plugin:3.2.1:war (default-war) @ onlinebookstore ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [onlinebookstore] in [/root/.jenkins/workspace/onlinebookstore/target/onlinebookstore-0.0.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/root/.jenkins/workspace/onlinebookstore/WebContent]
+[INFO] Webapp assembled in [87 msecs]
+[INFO] Building war: /root/.jenkins/workspace/onlinebookstore/target/onlinebookstore-0.0.1-SNAPSHOT.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.390 s
+[INFO] Finished at: 2022-08-03T03:19:37Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

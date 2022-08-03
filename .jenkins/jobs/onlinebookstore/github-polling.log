@@ -1,0 +1,13 @@
+Started on Aug 3, 2022 3:19:22 AM
+Started by event from 140.82.115.248 ⇒ http://54.161.139.210:8080/jenkins/github-webhook/ on Wed Aug 03 03:19:22 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 1951541a858ff0c65b0cf7bfd282cfdf7429511e (origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.37.1'
+ > git ls-remote -h -- git@github.com:Rajender-D/onlinebookstore.git # timeout=10
+Found 1 remote heads on git@github.com:Rajender-D/onlinebookstore.git
+[poll] Latest remote head revision on refs/heads/master is: 3ede3978754437706148b1da79d0426e70328f9b
+Done. Took 0.3 sec
+Changes found
